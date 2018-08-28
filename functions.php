@@ -40,4 +40,19 @@ function theme_widgets_init() {
 	);
 }
 add_action( 'widgets_init', 'theme_widgets_init' );
+
+/**
+ *スタイルシートの追加
+ *
+ * @version 1.0.0
+ * @since 1.0.0
+ * @author y.hazama
+ */
+
+function theme_styles() {
+	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'theme-common', get_template_directory_uri() . '/css/common.css' );
+}
+add_action( 'wp_enqueue_scripts', 'theme_styles' );
+
 ?>
