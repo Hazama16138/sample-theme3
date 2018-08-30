@@ -12,18 +12,6 @@
 		</small>
 	</div>
 </footer>
-
-<script>
-	$('.bxslider').find('li').show();
-	$('.bxslider').bxSlider({
-		mode: 'horizontal',
-		auto: true,
-		speed: 1000,
-		pause: 4000
-	});
-	$('#pageTop').pageTop({speed: 500});
-</script>
-<script src="<?php echo get_template_directory_uri();	 ?>/js/slideshow.js"></script>
 <?php wp_footer(); ?>
 </body>
 </html>
