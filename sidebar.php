@@ -1,13 +1,13 @@
 <section class="contents-sub">
 	<nav>
 		<figure>
-			<a href="gallery.html">
+			<a href="gallery">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/btn_gallery.jpg" width="200" height="114" alt="作品紹介">
 			</a>
 		</figure>
 
 		<figure>
-			<a href="tickets.html">
+			<a href="tickets">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/btn_tickets.jpg" width="200" height="84" alt="前売り券申し込み">
 			</a>
 			<figcaption>
